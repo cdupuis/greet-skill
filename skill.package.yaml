@@ -1,4 +1,3 @@
 apiVersion: 1
-skill:
-  subscriptions:
-    - '@atomist/skill/onNewChatUser'
+package:
+  type: atomist/node-skill
