@@ -1,0 +1,9 @@
+{
+  "main": "node_modules/@atomist/skill/lib/function.js",
+  "dependencies": {
+    "@atomist/skill": "0.1.1-19"
+  },
+  "scripts": {
+    "skill": "atm-skill generate && atm-skill bundle --minify --source-map && atm-skill package"
+  }
+}
