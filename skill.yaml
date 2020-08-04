@@ -1,4 +1,10 @@
+---
 apiVersion: 1
 skill:
   subscriptions:
-    - '@atomist/skill/onNewChatUser'
+    - '@atomist/skill/onPush'
+  artifacts:
+    docker:
+      - image: 'alpine:latest'
+        command:
+          - 'echo Hello World'
