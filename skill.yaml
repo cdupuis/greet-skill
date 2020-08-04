@@ -1,11 +1,4 @@
 apiVersion: 1
 skill:
-  artifacts:
-    gcf:
-      - memory: 512
-        timeout: 60
-        runtime: nodejs10
-        entryPoint: entryPoint
-        name: gcf
   subscriptions:
     - '@atomist/skill/onNewChatUser'
