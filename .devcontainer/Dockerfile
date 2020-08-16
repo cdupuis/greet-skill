@@ -10,4 +10,4 @@ FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:${VARIANT}
 # RUN su node -c "source /usr/local/share/nvm/nvm.sh && nvm install ${EXTRA_NODE_VERSION}"
 
 # [Optional] Uncomment if you want to install more global node modules
-RUN sudo -u node npm install -g @atomist/atm-skill@branch-master
+RUN sudo -u node npm install -g @atomist/skill@branch-master
