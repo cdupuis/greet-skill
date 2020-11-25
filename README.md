@@ -9,4 +9,4 @@ Simple HelloWorld container skill
 
 Skill to print `Hello World` into the skill log on each push
 
-<!---atomist-skill-readme:end--->
+<!---atomist-skill-readme:end---> 
